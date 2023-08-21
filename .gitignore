@@ -1,0 +1,19 @@
+# Ignore node_modules folder
+frontend-demo/node_modules/
+backend-demo/node_modules/
+
+# Ignore build artifacts
+frontend-demo/dist/
+backend-demo/dist/
+
+# Ignore environment-specific files
+frontend-demo/src/environments/environment.ts
+backend-demo/server/datasources.json
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
