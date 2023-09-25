@@ -1,0 +1,48 @@
+.background {
+    background-image: url('../../assets/image/background.jfif');
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-position: left top 0px; //可以调整图片的位置
+    position: relative;
+  }
+
+  .login-form {
+    max-width: 320px;
+		width: 50%;
+		height: 350px;
+		// background: #1d2832;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		right: 40%;
+  }
+
+  .login-form-margin {
+    margin-bottom: 16px;
+  }
+
+  .login-form-forgot {
+    float: right;
+  }
+
+  .login-form-button {
+    width: 100%;
+  }
+
+  .login-form input {
+    height:40px;
+  }
+  
+   // .background {
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   right: 0;
+  //   bottom: 0;
+  //   background-image: url('../../assets/image/background.jfif');
+  //   background-size: cover;
+  //   background-position: center;
+  //   background-repeat: no-repeat;
+  // }
